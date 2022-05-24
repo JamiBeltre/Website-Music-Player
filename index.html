@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Music Player |</title>
+
+    <!--Diseño-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./Assest/img/Logo.png">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+
+<!-- JavaScrypt -->
+  <script defer src="app.js"></script>
+
+<!-- Fuentes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Player -->
+<main class="main">
+
+    <!-- Titulo -->
+<h1 class="titulo">NOW PLAYING</h1>
+
+<!-- Imagen -->
+<img src="" alt="cover" class="cover" id="cover">
+
+<!-- Nombre de Canción-->
+<h2 id="nombre"></h2>
+
+
+<!-- Audio HTML-->
+<audio src="./Assest/Audio/spirit-blossom-15285.mp3" id="audio"> </audio>
+
+<!-- Barra de Controles -->
+<section class="controles">
+    <button class="ant">
+   <i class="fas fa-backward" id="prev"></i>
+    </button>
+
+<button class="play" >
+  <i class="fas fa-play" id="play"></i>
+</button>
+
+<button class="sig" >
+  <i class="fas fa-forward" id="sig"></i>
+</button>
+
+</section>
+
+<!-- Barra de Progreso-->
+<div class="Progreso-container">
+    <section class="progreso" id="progress">
+
+    </section>
+
+
+</div>
+
+
+<!-- Lista de Canciones-->
+<ul class="canciones" id="songs">
+
+<!--<li><a href="#">Canción 1</a> </li>
+<li> <a href="#">Canción 2</a> </li>
+<li> <a href="#">Canción 3</a> </li> -->
+
+</ul>
+
+</main>
+
+<section>
+  <img src="./Assest/img/Logo.png" class="logo">
+</section>
+
+</body>
+
+</html>
