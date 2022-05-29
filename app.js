@@ -1,20 +1,20 @@
 const songList = [
 {
     title: "Hip Hop Ambiente Cinematico",
-    file: "./Assest/audio/ambient-cinematic-hip-hop-22168.mp3",
-    cover: "./Assest/img/3.png"
+    file: "./Assest/Audio/ambient-cinematic-hip-hop-22168.mp3",
+    cover: "./Assest/Img/3.png"
 },
 
 {
     title: "Slow Trap",
-    file: "./Assest/audio/slow-trap-18565.mp3",
-    cover: "./Assest/img/2.png"
+    file: "./Assest/Audio/slow-trap-18565.mp3",
+    cover: "./Assest/Img/2.png"
 },
 
 {
     title: "Spirit Blossom",
-    file: "./Assest/audio/spirit-blossom-15285.mp3",
-    cover: "./Assest/img/1.png"
+    file: "./Assest/Audio/spirit-blossom-15285.mp3",
+    cover: "./Assest/Img/1.png"
 }
 ]
 
